@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1 {
+  margin: 0;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+nav ul li {
+  margin-right: 1rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+main {
+  padding: 2rem;
+}
+.banner {
+  background-image: url('fruit-basket.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+.banner h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.categories,
+.shopping-cart,
+.contact-info {
+  margin-bottom: 2rem;
+}
+.categories h3,
+.shopping-cart h3,
+.contact-info h3 {
+  background-color: #4CAF50;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.categories h3 {
+  background-color: #4CAF50;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.shopping-cart h3 {
+  background-color: #4CAF50;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.contact-info h3 {
+  background-color: #4CAF50;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+main,
+footer {
+  display: flex;
+}
+main > section,
+footer > section {
+  flex: 1;
+  padding: 20px;
+}
+.contoiner {
+  width: 500px;
+  height: 500px;
+  background-image: url('https://cdn.discordapp.com/attachments/1130840708153098364/1184504847949643826/Bannar_Big.png?ex=65d60b1a&is=65c3961a&hm=018f47931d2d6646115c40b259556f6a9b8a11e574d97b798b49dbaf81bfde16&');
+  background-repeat: no-repeat;
+  background-size: 500px;
+}
+.categories,
+.shopping-cart {
+  width: 300px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: 300px 200px;
+}
+.categories {
+  background-image: url('file:///C:/Users/GAME_PC/Downloads/Bannar.png');
+  margin-bottom: 20px;
+  position: relative;
+}
+.shopping-cart {
+  background-image: url('file:///C:/Users/GAME_PC/Downloads/Bannar%20(1).png');
+  margin-top: 200px;
+  margin-right: 300px;
+}
